@@ -690,7 +690,7 @@ header {
 				}
 			.chest2a2, .chest2b2, .chest2c2 {
 			
-			width: 89%;
+			width: 98%;
 			height: 65px;
 			display: flex;
 			flex-direction: row;
@@ -723,7 +723,9 @@ header {
 					border-top-right-radius: 5px;
 					text-align: right;
 					vertical-align: middle;
-					padding-right: 6px;
+					margin-right: 17px;
+					padding-right: 5px;
+					
 					}
 						.chest2c2b {
 					background-image: url(images/flag-round-250.png);
@@ -737,13 +739,14 @@ header {
 			.chest2a3, .chest2b3, .chest2c3 {
 			background-color: #ed0058;
 			
-			width: 89%;
+			width: 95%;
 			height: 20px;
 			color: white;
 			vertical-align: middle;
 			font-size: .6rem;
 			font-family: 'Mafont', sans-serif;
 			padding-top: 5px;
+			margin-right: 15px;
 			} 
 			.chest2a3 svg, .chest2b3 svg, .chest2c3 svg {
 				font-size: 15px;
@@ -1037,7 +1040,7 @@ header {
 			background-image: url(images/call.png);
 			background-repeat: no-repeat;
 			background-position: center;
-			background-size: 45% 40px;
+			background-size: 50% 40px;
 			border:1px solid white;
 			border-radius:10px;
 			width: 30%;
@@ -1072,7 +1075,7 @@ header {
 			background-repeat: no-repeat;
 			background-position: center;
 			border-radius:10px;
-			background-size: 45% 40px;
+			background-size: 50% 40px;
 			border:1px solid white;
 			width: 30%;
 			height: 65px;
@@ -1086,11 +1089,11 @@ header {
 			height: 20px;
 			}
 			.party2d1 {
-			background-image: url(images/user_group.png);
+			background-image: url(user_group.png);
 			background-repeat: no-repeat;
 			background-position: center;
 			border-radius:10px;/
-			background-size: 55% 30px;
+			background-size: 50% 40px;
 			border:1px solid white;
 			width: 30%;
 			height: 65px;
