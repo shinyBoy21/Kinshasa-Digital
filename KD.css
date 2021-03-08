@@ -11,7 +11,7 @@
 	src: url(Montserrat/Montserrat-Light.ttf);
 }
 @font-face {
-	font-family: 'Mafont2'
+	font-family: 'Mafont2';
 	src: url(Roboto/Roboto-Regular.ttf);
 }
 @font-face {
@@ -200,7 +200,7 @@ header {
 	}
 		.nose2a, .nose2b {
 		width: 39%;
-		height: 50%;/
+		height: 50%;
 		}
 		
 			.nose2a a, .nose2b a {
@@ -243,7 +243,6 @@ header {
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	white-space: 30px;
 	margin-left: 50px;
 	text-align: center;
 	margin-bottom: 80px;
@@ -254,7 +253,7 @@ header {
 		background-repeat: no-repeat;
 		background-size: 55px 45px;
 		width: 15%;
-		height: 50%;*/
+		height: 50%;
 		}
 		.nose4a {
 		background-image: url('logo/nodejs.png');
@@ -427,7 +426,7 @@ header {
 			align-items: center;
 			justify-content: space-between;
 			width: 46%;
-			height: 45%;/
+			height: 45%;
 			}
 				.mouth2c2a{
 				background-image: url(images/earth.svg);
@@ -522,13 +521,13 @@ header {
 }
 	.neck1 {
 	font-size: 25px;
-	color: rgba(24, 0, 39, 0, 0.87);
+	color: rgba(24, 0, 39, 0, .87);
 	width: 75%;
 	height: 100px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: center;/
+	justify-content: center;
 	}
 	.neck1 h1 {
 		font-size: 2.5rem;
@@ -555,7 +554,7 @@ header {
 		justify-content: space-around;
 		border-top: 10px solid #ffe64d;
 		border-bottom-right-radius:15px; 
-		border-bottom-left-radius:15px;/
+		border-bottom-left-radius:15px;
 		}
 		.neck2b {
 		background-color: white;
@@ -590,11 +589,11 @@ header {
 				width: 90%;
 				height: 80px;
 				text-align: center;
-				color: rgba(24, 0, 39, 0, 0.87);
+				color: rgba(24, 0, 39, 0, .87);
 				font-size: 19px;
 				}
 				.neck2b1b {
-				margin-bottom: 45px;*/
+				margin-bottom: 45px;
 				}
 					.neck2a1b p, .neck2b1b p {
 					font-family: 'MafontLeg', sans-serif;
@@ -683,7 +682,7 @@ header {
 				}
 				span {
 					font-size: 7rem;
-					font-weight: 650;
+					font-weight: 700;
 					text-align: center;
 					vertical-align: middle;
 					color:rgb(217, 41, 80);
@@ -809,7 +808,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: top;
+	justify-content: flex-start;
 	margin-bottom: 50px;
 }
 	.belly1 {
@@ -857,7 +856,6 @@ header {
 		    background-color: #d92950;
 		    color: white;
 		    padding-top: 20px;
-		    white-space: 10px;
 		    text-align: left;
 			}
 			.belly2a2 {
@@ -978,7 +976,7 @@ header {
 		    font-size: 1.75rem;
 		    color: white;
 		    padding-top: 20px;
-		    text-align: left;/
+		    text-align: left;
 			}
 			.belly2b2 {
 			border-radius: 10px;
@@ -1092,7 +1090,7 @@ header {
 			background-image: url(user_group.png);
 			background-repeat: no-repeat;
 			background-position: center;
-			border-radius:10px;/
+			border-radius:10px;
 			background-size: 50% 40px;
 			border:1px solid white;
 			width: 30%;
@@ -1302,7 +1300,7 @@ header {
 	height: 150px;
 	display: flex;
 	flex-direction: row;
-	align-items: top;
+	vertical-align: top;
 	justify-content: center;
 	margin-bottom: 50px;
 	/**/
@@ -1530,6 +1528,10 @@ header {
 				font-family: 'Roboto', sans-serif;
 				font-size: 1rem;
 				color: hsla(0,0%,100%,.87);
+
+			}
+			select {
+				color: #495057;
 			}
 			#title:focus, #sector:focus, textarea:focus, #prenom:focus, #nom:focus, #email:focus, #phone:focus, 
 			#demande:focus, #entreprise:focus, #site:focus, #ville:focus {
@@ -1575,19 +1577,21 @@ header {
 		.feet4 p a:hover {
 			border-bottom: 2px solid #d92950;
 		}
-		.feet4 p a input {
+		.envoyer {
+			display: inline-block;
+			margin-top: 10px;
 			padding: 16px;
 			background-color: #d92950;
 			text-decoration: none;
-			color:white;
+			color:white !important;
 			border-radius: 10px;
-			width: 10%;
+			width: 7% ! important;
 			font-family: 'Mafont2', sans-serif;
 			font-weight: bold;
 			font-size: 17px;
 			border-style: none;
 		}
-		.feet4 p a input:hover {
+		.envoyer:hover {
 			padding: 16px;
 			background-color: inherit;
 			border:2px solid #d92950;
@@ -1645,37 +1649,24 @@ header {
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-around;
-		/**/
 		}
 			.toe1b1, .toe1b2, .toe1b3 {
 				height: 50px;
 				width: 10px;
 				border-bottom: 2px solid inherit;
 				padding-right: 10px;
-			/*border: 1px solid white;*/
-			
-			
-			/*background-size: 100px 100px;
-			/**/
 			}
 			.toe1b1:hover, .toe1b2:hover, .toe1b3:hover {
 				height: 50px;
 				width: 10px;
 				border-bottom: 2px solid #d92950;
 				padding-right: 18px;
-			/*border: 1px solid white;*/
-			
-			
-			/*background-size: 100px 100px;
-			/**/
 			}
 				.toe1b1 a i, .toe1b2 a i, .toe1b3 a i {
 					display: inline-block;
 					height: 30px;
 					width: 10px;
-					
 					color:#d92950;
-					
 					vertical-align: -30px;
 					
 
@@ -1740,28 +1731,38 @@ header {
 					height: 60px;
 					font-size: 15px;
 				}
-				.toe2b1::placeholder {
-					border:2px solid pink;
+				
+				.toe2b1 p input:focus {
+					outline: none;
+					border:3px solid #5D1941;
+
 				}
+
 			.toe2b2 {
 			width: 30%;
 			height: 100px;
 			}
-				.toe2b2 p input {
+				.toe2b2 p a {
 					border-style: none;
 					border-top-right-radius: 15px;
 					border-bottom-right-radius: 15px;
-					width: 86%;
-					height: 66px;
+					width: 83%;
+					height: 44px;
 					background-color: #d92950;
 					color: white;
 					font-size: 17px;
 					font-weight: bold;
-					font-family: Arial; sans-serif;
+					font-family: Arial, sans-serif;
 					border-style: none;
+					padding: 1px;
+					display: inline-block;
+					vertical-align: middle;
+					padding-top: 20px;
+					text-decoration: none;
+					text-align: center;
 
 				}
-				.toe2b2 p input:hover {
+				.toe2b2 p a:hover {
 					border-top-right-radius: 15px;
 					border-bottom-right-radius: 15px;
 					width: 86%;
@@ -1770,7 +1771,7 @@ header {
 					background-color: inherit;
 					color: rgba(24,0,39,.87);
 					font-size: 17px;
-					font-family: Arial; sans-serif;
+					font-family: 'Arial', sans-serif;
 
 				}
 		.toe2c {
@@ -1782,7 +1783,7 @@ header {
 			.toe2c a {
 			text-decoration: none;
 			color: white;
-			font-family: 'MafontBol',sans-serif;
+			font-family: 'MafontBol', sans-serif;
 			font-weight: lighter;
 			font-size: 1rem;
 			margin-top: 100px;
